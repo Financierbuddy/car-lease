@@ -1,0 +1,56 @@
+.txtHeading { 
+  @apply text-gray-800  text-lg font-medium leading-tight
+}
+.txtSubheading { 
+  @apply font-semibold text-gray-700  leading-tight
+}
+.txtRegular { 
+  @apply text-gray-600  font-thin leading-tight
+}
+.txtMedium { 
+  @apply text-gray-800  font-medium leading-tight
+}
+.txtNormal { 
+  @apply text-gray-600   leading-tight
+}
+.shadowCard {
+  @apply w-full rounded-2xl p-5 bg-white dark:bg-slate-700 shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px]
+}
+
+.heading{
+  @apply text-3xl leading-[40px] lg:text-5xl lg:leading-[70px] font-semibold
+}
+
+.heading2{
+  @apply text-2xl leading-[30px] lg:text-4xl lg:leading-[60px] font-semibold
+}
+
+.ant-picker .ant-picker-input >input[disabled] {
+  color: rgb(209 213 219) !important;
+}
+
+.ant-select-disabled .ant-select-selector .ant-select-selection-item {
+  color: rgb(209 213 219) !important;
+}
+
+.ant-input-number-affix-wrapper-sm input.ant-input-number-input{
+  text-align: right!important;
+}
+
+
+.screen_max_width{
+  max-width: 1440px;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.screen_max_width_blog{
+  max-width: 1200px;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+
